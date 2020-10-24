@@ -1,0 +1,402 @@
+*{/*resetar css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*a medida das bordas, começa a ser medido com a largura/altura definida
+*/
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formd{
+width: 40px;
+height: 150px;
+margin-left: -280px;
+align-items: center;
+margin-top: -230px;
+position: fixed;
+
+}
+.formrs{
+width: 40px;
+height: 150px;
+margin-left: -280px;
+align-items: center;
+margin-top: 40px;
+position: fixed;
+
+
+}
+.bio-txttitle{
+  margin-top: -190px;
+
+
+}
+.bio-txt{
+width: 369px;
+height: 212px;
+position: absolute;
+margin-top: 1px;
+}
+
+.btn-form-{
+    margin-left: -331px;
+margin-top: 109px;
+    
+}
+.aba{
+    display: flex;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.aba a {
+    text-decoration: none;
+    color: white;      
+ }
+
+
+.config{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 3px 3px 3px 3px;
+
+}
+.config:hover{
+    
+    background-color: white;
+
+}
+
+
+
+.abas-itens{
+    padding: 10px 20px 10px 20px;
+    list-style: none;
+    border: 1px solid white;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: transparent;
+    
+          
+ }
+ .abas-itens:hover{
+   background-color:#f46330;
+  
+ }
+ 
+
+
+.titulos-select{
+    display: flex;
+    margin-left: 20px;
+    position: relative;
+}
+.premios{
+    margin-left: 100px;
+    border: 1px solid black;
+    padding: 15px 120px 350px 120px;
+    border-radius: 10px;
+    background-color: #006680ff;
+
+}
+.premios:hover{
+    
+    border: 1px solid black;
+    box-shadow: 0 0 75px 0 #f46330;
+
+}
+
+.competi{
+    margin-left: 100px;
+    border: 1px solid black;
+    padding: 0px 120px 350px 120px;
+    border-radius: 10px;
+    background-color: #006680ff;
+}
+.competi:hover{
+    border: 1px solid black;
+    box-shadow: 0 0 75px 0 #f46330;
+}
+
+.logol{
+    width: 350px;
+    height: 350px;
+    padding: 0;
+    border: 1px solid white; width: 180px; height: 180px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+ .logolcard{
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    border: 1px solid black; width: 180px; height: 180px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,1);
+    
+    
+}
+.logolcard:hover{
+    box-shadow: 0 0 40px 0 orangered;
+    width: 180px;
+    height: 180px;
+    z-index: -20;
+  
+}
+.list-card-select{
+    margin-left: 80px;
+}
+.pesquisa{
+    display: block ruby;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    width: 170px;
+    height:30px;
+    padding: 4px 25px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+.pesquisa:hover{
+    
+    background-color: green;
+}
+.container {
+    display: flex; /*as divs que estava uma em baixo da outra, ficam uma do lado da outra*/
+    justify-content: center; /*alinhar/centralizar no eixo-x*/
+    align-items: center;
+    height: 100vh; /* alinha na vertical dando esta altura*/
+    background-color: #ecf0f1;
+}
+.content{
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center; /* preciso definir uma altura para usar ela*/
+    position: fixed;
+
+}
+
+.content::before {
+    content:"" ;
+    position: absolute;
+    background-color: #100e17;
+    width: 280px;
+    height: 100%;
+
+    justify-content: center;
+    
+}
+.title{
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: ruby;
+    margin-left: 69px;
+}
+
+.title-primary{
+    color:#fff;
+    
+
+}
+
+.title-second{
+    color:#100e17;
+
+}
+.description{
+    font-size: 14px ;
+    font-weight: 300;
+    margin-left: 105px;
+    line-height: 30px; /*altura de linha/ afastamento */
+    border: 1px solid white;
+    width: 80px;
+    border-radius: 20px;
+    margin-top: 16px;
+}
+.description-primary{
+    color:#fff;
+
+}
+.description-second{
+    color:#100e17
+}
+.information{
+    margin-top: 10px;
+}
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding:10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 165px;
+    align-self: center;
+    border-width: 0;
+    background-color: #100e17;
+    border: 1px solid #100e17;
+    margin-top:30px;
+    margin-left: 95px;
+
+}
+.btn:hover{
+    border: 1px solid #100e17;
+    background-color: white;
+    color: #100e17;
+}
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color:#100e17;
+    border: 1px solid #100e17;
+}
+.first-content{
+    display: flex; /*uma coluna fica do lado da outra*/
+}
+.first-column{
+    text-align: center;
+     width: 0px;
+    z-index: 10;
+}
+
+.second-column{
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    margin-left: 15px;
+}
+
+.notification{
+    margin: 0.2rem 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.n-usuario, .n-mensagem, .n-convpartida{
+    background-color: brown;
+    color:white;
+    margin-top: -60px;
+    margin-left: 18px;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    
+    
+}
+
+
+
+
+.list-notification{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    margin: 2px 0;
+    margin-left: 40px;
+    
+}
+.item-notification {
+    border: 2px solid #bdc3c7;
+    border-radius: 50%;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.item-notification:hover{
+    background-color: #100e17;
+}
+
+
+.social-media{
+    margin:  0;
+    margin-left: 10px;
+
+}
+    
+.list-social-media{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.item-social-media {
+    border: 2px solid #bdc3c7;
+    border-radius: 50%;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+   
+}  
+.item-social-media:not(:first-child){
+    /*isso faz com que no meu primeiro elemento, não se aplique este comando. só nos outros*/
+    margin-left: 10px;
+}
+
+
+.item-social-media:hover {
+    border: 2px solid #bdc3c7;
+    border-radius: 50%;
+    background-color: #100e17;
+   
+}   
+
+.form{
+    width: 55%;
+    display: flex;
+    flex-direction: column; /*direciona o fluxo que a gente quer formulario fica em coluna*/
+}
+.form input{
+   height: 45px;
+   width: 100%;
+   border: none;
+   background-color: #ecf0f1;
+}
+
+.label-input{
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.icon-modify{
+    color: #7f8c8d;
+    padding: 0 5px;
+}
+

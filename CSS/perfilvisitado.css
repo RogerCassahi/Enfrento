@@ -1,0 +1,232 @@
+*{/*resetar css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*a medida das bordas, começa a ser medido com a largura/altura definida
+*/
+}
+
+.aba{
+    display: flex;
+    text-decoration: none;
+    margin-left: 380px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.aba a {
+    text-decoration: none;
+    color: white;      
+ }
+
+
+.config:hover{
+    
+    background-color: white;
+
+}
+.abas-itens{
+   padding: 10px 20px 10px 20px;
+   list-style: none;
+   border: 1px solid white;
+   justify-content: center;
+   border-radius: 20px;
+   background-color: transparent;
+   
+         
+}
+.abas-itens:hover{
+  background-color:#f46330;
+ 
+}
+
+.logol{
+    width: 350px;
+    height: 350px;
+    padding: 0;
+    border: 1px solid white; width: 180px; height: 180px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+} 
+
+
+
+.container {
+    display: flex; /*as divs que estava uma em baixo da outra, ficam uma do lado da outra*/
+    justify-content: center; /*alinhar/centralizar no eixo-x*/
+    align-items: center;
+    height: 100vh; /* alinha na vertical dando esta altura*/
+    background-color: #ecf0f1;
+    
+}
+.content{
+    background-color: #100e17;
+    border-radius: 15px;
+    width: 1150px;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center; /* preciso definir uma altura para usar ela*/
+    position: fixed;
+
+}
+
+.content::before {
+    content:"" ;
+    position: absolute;
+    background-color: #100e17;
+    width: 280px;
+    height: 100%;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius: 15px;
+    justify-content: center;
+    
+}
+.title{
+    
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: ruby;
+    margin-left: 50px;
+}
+
+.title-primary{
+    color:#fff;
+    
+
+}
+
+.title-second{
+    color:#100e17;
+
+}
+.description{
+    font-size: 14px ;
+    font-weight: 300;
+    margin-left: 105px;
+    line-height: 30px; /*altura de linha/ afastamento */
+    border: 1px solid white;
+    width: 80px;
+    border-radius: 20px;
+    margin-top: 16px;
+    
+}
+.description-primary{
+    color:#fff;
+    margin-left: 490px;
+
+}
+.description-second{
+    color:#100e17
+}
+.information{
+    margin-top: 10px;
+}
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding:10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 165px;
+    align-self: center;
+    border-width: 0;
+    background-color: #100e17;
+    border: 1px solid #100e17;
+    margin-top:30px;
+    margin-left: 95px;
+
+}
+.btn:hover{
+    border: 1px solid #100e17;
+    background-color: white;
+    color: #100e17;
+}
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color:#100e17;
+    border: 1px solid #100e17;
+}
+.first-content{
+    display: flex; /*uma coluna fica do lado da outra*/
+    width: 1000px;
+}
+.first-column{
+    text-align: center;
+    width: 1000px;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+.social-media{
+    margin:  0;
+    margin-left: 10px;
+}
+    
+.list-social-media{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 390px;
+}
+.item-social-media {
+    border: 2px solid #bdc3c7;
+    border-radius: 50%;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+   
+}  
+.item-social-media:not(:first-child){
+    /*isso faz com que no meu primeiro elemento, não se aplique este comando. só nos outros*/
+    margin-left: 10px;
+}
+
+
+.item-social-media:hover {
+    border: 2px solid #bdc3c7;
+    border-radius: 50%;
+    background-color: #100e17;
+   
+}   
+
+.form{
+    width: 55%;
+    display: flex;
+    flex-direction: column; /*direciona o fluxo que a gente quer formulario fica em coluna*/
+}
+.form input{
+   height: 45px;
+   width: 100%;
+   border: none;
+   background-color: #ecf0f1;
+}
+
+.label-input{
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.icon-modify{
+    color: #7f8c8d;
+    padding: 0 5px;
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.51694839"
+     inkscape:cx="516.83409"
+     inkscape:cy="598.14875"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-32.416659)">
+    <ellipse
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.42875001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path817"
+       cx="150.30629"
+       cy="164.34271"
+       rx="31.126608"
+       ry="31.290005"
+       inkscape:export-xdpi="31"
+       inkscape:export-ydpi="31" />
+    <ellipse
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.42875001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path817-3"
+       cx="150.38799"
+       cy="164.42441"
+       rx="19.799093"
+       ry="19.903027"
+       inkscape:export-xdpi="31"
+       inkscape:export-ydpi="31" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1.42875001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 132.31764,133.76935 c -19.30129,1.62033 -36.416672,0.709 -55.717961,0.90755 l 3.183226,5.70691 c 18.594731,-0.25758 29.449865,7.23744 35.625615,14.3346 4.07229,-14.05505 14.01584,-19.93061 16.90912,-20.94906 z"
+       id="path834"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="31"
+       inkscape:export-ydpi="31" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot840"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Built Titling';-inkscape-font-specification:'Built Titling';letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:6.38443042;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(-0.22280148,-0.02097487,-0.02097487,0.22280148,415.34939,175.75697)"
+       inkscape:export-xdpi="31"
+       inkscape:export-ydpi="31"><flowRegion
+         id="flowRegion842"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Built Titling';-inkscape-font-specification:'Built Titling';fill:none;stroke:#ffffff;stroke-width:6.38443042;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"><rect
+           id="rect844"
+           width="59.108353"
+           height="93.209328"
+           x="1034.3962"
+           y="40.625938"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Built Titling';-inkscape-font-specification:'Built Titling';fill:none;stroke:#ffffff;stroke-width:6.38443042;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></flowRegion><flowPara
+         id="flowPara846">c</flowPara></flowRoot>  </g>
+</svg>

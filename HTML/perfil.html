@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login2</title>
+    <link rel="shortcut icon" href="../Imagens/aicon.png">
+    <link rel="stylesheet" href="../CSS/perfil.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!--Conteudo-->
+
+        <div class="content first-content">
+            <!--Conteudo geral 1-->
+            <div class="first-column">
+                <!--Primeira coluna-->
+
+                <img class="logol" src="../Imagens/logo.svg">
+
+                <div class="aba">
+                    <a href="../HTML/perfil.html">
+                        <li class="abas-itens">Convidar</li>
+                    </a>
+                    <a href="../HTML/config.html"> <img class="config" src="../Imagens/config.svg"
+                            style="height: 30px; width: 30px; "></a>
+                    <a href="../HTML/historia.html">
+                        <li class="abas-itens hist">História</li>
+                    </a>
+                </div>
+
+                <div class="notification">
+                    <!--Redes Sociais coluna2 part1-->
+                    <ul class="list-notification">
+                        <li class="item-notification"><a href="#"><img src="../Imagens/usuario.svg"
+                                    style="height: 30px; width: 30px; "> </a>
+                            <p class="n-usuario" id="n-usuario">x</p>
+                        </li>
+                        <li class="item-notification"><a href="#"><img src="../Imagens/mensagem.svg"
+                                    style="height: 30px; width: 30px"> </a>
+                            <p class="n-mensagem" id="n-mensagem">x</p>
+                        </li>
+                        <li class="item-notification"><a href="#"><img src="../Imagens/convpartida.svg"
+                                    style="height: 30px; width: 30px"> </a>
+                            <p class="n-convpartida" id="n-convpartida">x</p>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+
+                <div class="information">
+                    <h2 class="title title-primary" id="Nome"> Nome completo</h2>
+                    <!--Titulo Primeira coluna-->
+                    <p class="description description-primary" id="Cidade">Cidade</p>
+                    <!--txt Primeira coluna-->
+                    <p class="description description-primary" id="Modalidade">Esportes</p>
+                    <!--txt Primeira coluna-->
+
+
+
+                    <button class="pesquisa" id="myBtn" id="gerarCard()"> Buscar atletas </button>
+                    <!-- Botão pesquisar coluna 1-->
+                </div>
+
+                <div class="social-media">
+                    <!--Redes Sociais coluna2 part1-->
+                    <ul class="list-social-media">
+                        <li class="item-social-media" id="face"><a href="#"><img src="../Imagens/face.svg"
+                                    style="height: 30px; width: 30px; "></a></li>
+                        <li class="item-social-media" id="insta"><a href="#"><img src="../Imagens/instagram.svg"
+                                    style="height: 30px; width: 30px"></a></li>
+                        <li class="item-social-media" id="twtter"><a href="#"><img src="../Imagens/twitter.svg"
+                                    style="height: 30px; width: 30px"></a></li>
+                        <li class="item-social-media" id="youtube"><a href="#"><img src="../Imagens/youtube.svg"
+                                    style="height: 30px; width: 30px"></a></li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+            <!--Primeira coluna 1-->
+            <div class="convidar">
+                <button class="convidar-select" onclick="convidar2()">02</button>
+                <button class="convidar-select" onclick="convidar10()">10</button>
+                <button class="convidar-select" onclick="convidar12()">12</button>
+                <button class="convidar-select" onclick="convidar24()">24</button>
+            </div>
+            <div class="second-column">
+                <!--Segunda coluna 1-->
+
+             <!--
+             <div class="list-card-select">
+                
+                <ul class="card-select">
+
+                    <img class="logolcard" id="card0">
+                    <button class="excluir" onclick="excluir0()">X</button>
+                    <img class="logolcard" id="card1">
+                    <button class="excluir" onclick="excluir1()">X</button>
+                    <img class="logolcard1" id="card2">
+                    <button class="excluir" onclick="excluir2()">X</button>
+                    <img class="logolcard1" id="card3">
+                    <button class="excluir" onclick="excluir3()">X</button>
+                    <img class="logolcard1" id="card4">
+                    <button class="excluir" onclick="excluir4()">X</button>
+                    <img class="logolcard1" id="card5">
+                    <button class="excluir" onclick="excluir5()">X</button>
+                </ul>
+                <ul class="card-select2"></ul>
+                    
+                    <img class="logolcard2" id="card6">
+                    <button class="excluir" onclick="excluir6()">X</button>
+                    <img class="logolcard2" id="card7">
+                    <button class="excluir" onclick="excluir7()">X</button>
+                    <img class="logolcard2" id="card8">
+                    <button class="excluir" onclick="excluir8()">X</button>
+                    <img class="logolcard2" id="card9">
+                    <button class="excluir" onclick="excluir9()">X</button>
+                    <img class="logolcard2" id="card10">
+                    <button class="excluir" onclick="excluir10()">X</button>
+                    <img class="logolcard2" id="card11">
+                    <button class="excluir" onclick="excluir10()">X</button>
+                </ul>
+                <ul class="card-select3">
+
+                    <img class="logolcard3" id="card12">
+                    <button class="excluir" onclick="excluir12()">X</button>
+                    <img class="logolcard3" id="card13">
+                    <button class="excluir" onclick="excluir13()">X</button>
+                    <img class="logolcard3" id="card14">
+                    <button class="excluir" onclick="excluir14()">X</button>
+                    <img class="logolcard3" id="card15">
+                    <button class="excluir" onclick="excluir15()">X</button>
+                    <img class="logolcard3" id="card16">
+                    <button class="excluir" onclick="excluir16()">X</button>
+                    <img class="logolcard3" id="card17">
+                    <button class="excluir" onclick="excluir17()">X</button>
+                </ul>
+                <ul class="card-select4"></ul>
+                                        
+                    <img class="logolcard4" id="card18">
+                    <button class="excluir" onclick="excluir18()">X</button>
+                    <img class="logolcard4" id="card19">
+                    <button class="excluir" onclick="excluir19()">X</button>
+                    <img class="logolcard4" id="card20">
+                    <button class="excluir" onclick="excluir20()">X</button>
+                    <img class="logolcard4" id="card21">
+                    <button class="excluir" onclick="excluir21()">X</button>
+                    <img class="logolcard4" id="card22">
+                    <button class="excluir" onclick="excluir22()">X</button>
+                    <img class="logolcard4" id="card23">
+                    <button class="excluir" onclick="excluir23()">X</button>
+                </ul>
+             
+            
+            
+            
+            
+            
+            
+            
+            </div>
+
+             -->
+
+
+                <button class="btn" onclick="partida()">Marcar</button></a>
+
+
+            </div>
+            <!--Segunda coluna 1-->
+
+
+        </div>
+        <!--Conteudo geral 1-->
+
+
+        <!-- ============================================================ -->
+
+
+    </div>
+    <!--container-->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="refresh">
+                <img src="../Imagens/atualizar.svg" class="refresh-img" onclick="refresh()"
+                    style="width: 50px; height: 50px;">
+            </div>
+            <div class="container">
+
+                <!-- Este é um elemento Card-->
+                <div class="card" id="complet-card">
+                    <!--ao mudar o id, apague tudo! onclick() perfil.js-->
+                    <div class="profile-card-">
+                        <div class="card-header-" id="00">
+                            <div class="pic-">
+                                <img class="fotop-" src="../Imagens/logo.svg">
+                            </div>
+                            <div class="name-" id="nomecompleto">Nome atleta</div>
+                            <div class="desc-" id="esportes">Esportes</div>
+                            <div class="sm-">
+                                <ul class="lsm-">
+                                    <li class="ism-" id="face-"><a href="#"><img src="../Imagens/face.svg"
+                                                style="height: 30px; width: 30px; "></a></li>
+                                    <li class="ism-" id="insta-"><a href="#"><img src="../Imagens/instagram.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+                                    <li class="ism-" id="twitter-"><a href="#"><img src="../Imagens/twitter.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+                                    <li class="ism-" id="ytube-"><a href="#"><img src="../Imagens/youtube.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+
+                                </ul>
+                            </div>
+                            <div class="localmap-">
+                                <img class="local-" src="../Imagens/local.svg" style="height: 30px; width: 30px">
+                                <p class="map">Cidade</p>
+                            </div>
+
+                            <div class="botao-"></div>
+                            <button class="botaos-" id="botaos-" onclick="select00()"><img
+                                    src="../Imagens/aprovar.svg"></button>
+                            <button class="botaon-" id="botaon-" onclick="notSelect()"><img
+                                    src="../Imagens/recusar.svg"></button>
+                        </div>
+
+                        <div class="card-footer-" id="statistic">
+                            <div class="numbers-">
+                                <div class="item-">
+                                    <span id="solicit">120</span>
+                                    Convites
+                                </div>
+                                <div class="border-">
+                                    <div class="item-">
+                                        <span id="accept">120</span>
+                                        Aceitos
+                                    </div>
+                                </div>
+                                <div class="item-">
+                                    <span id="ausencia">120</span>
+                                    Ausência
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Até aqui -->
+                <!-- Este é um elemento Card-->
+                <div class="card" id="complet-card">
+                    <!--ao mudar o id, apague tudo! onclick() perfil.js-->
+                    <div class="profile-card-">
+                        <div class="card-header-" id="01">
+                            <div class="pic-">
+                                <img class="fotop-" src="../Imagens/logo.svg">
+                            </div>
+                            <div class="name-" id="nomecompleto">Nome atleta</div>
+                            <div class="desc-" id="esportes">Esportes</div>
+                            <div class="sm-">
+                                <ul class="lsm-">
+                                    <li class="ism-" id="face-"><a href="#"><img src="../Imagens/face.svg"
+                                                style="height: 30px; width: 30px; "></a></li>
+                                    <li class="ism-" id="insta-"><a href="#"><img src="../Imagens/instagram.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+                                    <li class="ism-" id="twitter-"><a href="#"><img src="../Imagens/twitter.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+                                    <li class="ism-" id="ytube-"><a href="#"><img src="../Imagens/youtube.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+
+                                </ul>
+                            </div>
+                            <div class="localmap-">
+                                <img class="local-" src="../Imagens/local.svg" style="height: 30px; width: 30px">
+                                <p class="map">Cidade</p>
+                            </div>
+
+                            <div class="botao-"></div>
+                            <button class="botaos-" id="botaos-" onclick="select00()"><img
+                                    src="../Imagens/aprovar.svg"></button>
+                            <button class="botaon-" id="botaon-" onclick="notSelect()"><img
+                                    src="../Imagens/recusar.svg"></button>
+                        </div>
+
+                        <div class="card-footer-" id="statistic">
+                            <div class="numbers-">
+                                <div class="item-">
+                                    <span id="solicit">120</span>
+                                    Convites
+                                </div>
+                                <div class="border-">
+                                    <div class="item-">
+                                        <span id="accept">120</span>
+                                        Aceitos
+                                    </div>
+                                </div>
+                                <div class="item-">
+                                    <span id="ausencia">120</span>
+                                    Ausência
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Até aqui -->
+                <!-- Este é um elemento Card-->
+                <div class="card" id="complet-card">
+                    <!--ao mudar o id, apague tudo! onclick() perfil.js-->
+                    <div class="profile-card-">
+                        <div class="card-header-" id="02">
+                            <div class="pic-">
+                                <img class="fotop-" src="../Imagens/logo.svg">
+                            </div>
+                            <div class="name-" id="nomecompleto">Nome atleta</div>
+                            <div class="desc-" id="esportes">Esportes</div>
+                            <div class="sm-">
+                                <ul class="lsm-">
+                                    <li class="ism-" id="face-"><a href="#"><img src="../Imagens/face.svg"
+                                                style="height: 30px; width: 30px; "></a></li>
+                                    <li class="ism-" id="insta-"><a href="#"><img src="../Imagens/instagram.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+                                    <li class="ism-" id="twitter-"><a href="#"><img src="../Imagens/twitter.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+                                    <li class="ism-" id="ytube-"><a href="#"><img src="../Imagens/youtube.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+
+                                </ul>
+                            </div>
+                            <div class="localmap-">
+                                <img class="local-" src="../Imagens/local.svg" style="height: 30px; width: 30px">
+                                <p class="map">Cidade</p>
+                            </div>
+
+                            <div class="botao-"></div>
+                            <button class="botaos-" id="botaos-" onclick="select00()"><img
+                                    src="../Imagens/aprovar.svg"></button>
+                            <button class="botaon-" id="botaon-" onclick="notSelect()"><img
+                                    src="../Imagens/recusar.svg"></button>
+                        </div>
+
+                        <div class="card-footer-" id="statistic">
+                            <div class="numbers-">
+                                <div class="item-">
+                                    <span id="solicit">120</span>
+                                    Convites
+                                </div>
+                                <div class="border-">
+                                    <div class="item-">
+                                        <span id="accept">120</span>
+                                        Aceitos
+                                    </div>
+                                </div>
+                                <div class="item-">
+                                    <span id="ausencia">120</span>
+                                    Ausência
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Até aqui -->
+                <!-- Este é um elemento Card-->
+                <div class="card" id="complet-card">
+                    <!--ao mudar o id, apague tudo! onclick() perfil.js-->
+                    <div class="profile-card-">
+                        <div class="card-header-" id="03">
+                            <div class="pic-">
+                                <img class="fotop-" src="../Imagens/logo.svg">
+                            </div>
+                            <div class="name-" id="nomecompleto">Nome atleta</div>
+                            <div class="desc-" id="esportes">Esportes</div>
+                            <div class="sm-">
+                                <ul class="lsm-">
+                                    <li class="ism-" id="face-"><a href="#"><img src="../Imagens/face.svg"
+                                                style="height: 30px; width: 30px; "></a></li>
+                                    <li class="ism-" id="insta-"><a href="#"><img src="../Imagens/instagram.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+                                    <li class="ism-" id="twitter-"><a href="#"><img src="../Imagens/twitter.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+                                    <li class="ism-" id="ytube-"><a href="#"><img src="../Imagens/youtube.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+
+                                </ul>
+                            </div>
+                            <div class="localmap-">
+                                <img class="local-" src="../Imagens/local.svg" style="height: 30px; width: 30px">
+                                <p class="map">Cidade</p>
+                            </div>
+
+                            <div class="botao-"></div>
+                            <button class="botaos-" id="botaos-" onclick="select00()"><img
+                                    src="../Imagens/aprovar.svg"></button>
+                            <button class="botaon-" id="botaon-" onclick="notSelect()"><img
+                                    src="../Imagens/recusar.svg"></button>
+                        </div>
+
+                        <div class="card-footer-" id="statistic">
+                            <div class="numbers-">
+                                <div class="item-">
+                                    <span id="solicit">120</span>
+                                    Convites
+                                </div>
+                                <div class="border-">
+                                    <div class="item-">
+                                        <span id="accept">120</span>
+                                        Aceitos
+                                    </div>
+                                </div>
+                                <div class="item-">
+                                    <span id="ausencia">120</span>
+                                    Ausência
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Até aqui -->
+                <!-- Este é um elemento Card-->
+                <div class="card" id="complet-card">
+                    <!--ao mudar o id, apague tudo! onclick() perfil.js-->
+                    <div class="profile-card-">
+                        <div class="card-header-" id="04">
+                            <div class="pic-">
+                                <img class="fotop-" src="../Imagens/logo.svg">
+                            </div>
+                            <div class="name-" id="nomecompleto">Nome atleta</div>
+                            <div class="desc-" id="esportes">Esportes</div>
+                            <div class="sm-">
+                                <ul class="lsm-">
+                                    <li class="ism-" id="face-"><a href="#"><img src="../Imagens/face.svg"
+                                                style="height: 30px; width: 30px; "></a></li>
+                                    <li class="ism-" id="insta-"><a href="#"><img src="../Imagens/instagram.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+                                    <li class="ism-" id="twitter-"><a href="#"><img src="../Imagens/twitter.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+                                    <li class="ism-" id="ytube-"><a href="#"><img src="../Imagens/youtube.svg"
+                                                style="height: 30px; width: 30px"></a></li>
+
+                                </ul>
+                            </div>
+                            <div class="localmap-">
+                                <img class="local-" src="../Imagens/local.svg" style="height: 30px; width: 30px">
+                                <p class="map">Cidade</p>
+                            </div>
+
+                            <div class="botao-"></div>
+                            <button class="botaos-" id="botaos-" onclick="select00()"><img
+                                    src="../Imagens/aprovar.svg"></button>
+                            <button class="botaon-" id="botaon-" onclick="notSelect()"><img
+                                    src="../Imagens/recusar.svg"></button>
+                        </div>
+
+                        <div class="card-footer-" id="statistic">
+                            <div class="numbers-">
+                                <div class="item-">
+                                    <span id="solicit">120</span>
+                                    Convites
+                                </div>
+                                <div class="border-">
+                                    <div class="item-">
+                                        <span id="accept">120</span>
+                                        Aceitos
+                                    </div>
+                                </div>
+                                <div class="item-">
+                                    <span id="ausencia">120</span>
+                                    Ausência
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Até aqui -->
+
+
+                <!-- The Modal card -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                    </div>
+                    <!-- The Modal card -->
+                    <div id="myModalchat" class="modalchat">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <!-- The Modal -->
+                            <div id="myModalchat" class="modal">
+
+                                <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+
+
+
+
+</body>
+<script src="../JS/perfil.js"></script>
+<script src="../JS/config.js"></script>
+
+</html>
